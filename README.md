@@ -49,6 +49,7 @@ a, b, c = (
     int(input('masukan nilai b :')),
     int(input('masukan nilai c :'))
 )
+```
 - saya menggunakan sistem deklarasi yang dimana kita mendeklarasikan ketiganya langsung dalam satu ekspresi
 - lalu kita menggunakan sistem array
 ```
@@ -99,7 +100,7 @@ for i in range(n):
 ![Gambar1](fotoss/ss5.png)
 
 - jadi masukan i, j, k sebagai inputan untuk memasukan bilangan lalu tambahkan if menandakan bahwa i lebih besar dari j lalu tambahkan titik dua jadi seperti ini If i > j: lakukan juga pada r dan d lalu print dan ketik masukan bilangan terbesar, lalu selanjutnya tambahkan elif dan else yaitu untuk menambah aksi untuk menentukan bahwa i lebih besar dari k dan j lebih besar dari k, setelah menjalani codingan sperti penjelasan dan gambar di atas lalu runing
-![Gambar1](fotoss/ss5.1)
+![Gambar1](fotoss/ss5.1.png)
 - setelah running masukan bilangan dari yang terbesar hingga terkecil, hasil akhirnya menunnjukan bilangan terbesar dari tiga bilangan yang di masukan
 
 # Latihan 6
