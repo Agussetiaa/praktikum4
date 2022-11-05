@@ -16,6 +16,9 @@ else :
 dan saat running kita diminta untuk memasukan bilangan pertama lalu bilangan kedua,
 lalu hasil runing nya seperti gambar berikut:
 
+![Gambar1](fotoss/ss1.png)
+![Gambar1](fotoss/ss1.1.png)
+
 # latihan 2
 pertama kita buat input terlebih dahulu contohnya seperti dibawah ini:
 ```
@@ -55,7 +58,9 @@ else:
  ```
 dan saat running kita sebut bilangan yang ingin kita urutkan lalu hasil running nya seperti gambar berikut:
 
-![Gambar1](
+![Gambar1](fotoss/ss2.png)
+![Gambar1](fotoss/ss2.1.png)
+
 # Latihan 3 
 
 pertama-tama kita buat codingannya dulu seperti berikut:
@@ -71,7 +76,9 @@ for i in range(0, 10):
 print()
 ```
 maka runingannya akan seperti gambar berikut:
-![Gambar1](
+
+![Gambar1](fotoss/ss3.png)
+![Gambar1](fotoss/ss3.1.png)
 
 
 # Latihan 4
@@ -89,20 +96,21 @@ for i in range(n):
 ```
 setelah runing akan diminta masukan nilai N, disini saya memasukan nilai n-nya 9 dan hasil runningannya akan seperti gambar berikut:
 
-![Gambar1](
+![Gambar1](fotoss/ss4.png)
+![Gambar1](fotoss/ss4.1.png)
 
 # Latihan 5
-![Gambar1](
+![Gambar1](fotoss/ss5.png)
 
 
 jadi masukan r, f, d sebagai inputan untuk memasukan bilangan lalu tambahkan if menandakan bahwa r lebih besar dari f lalu tambahkan titik dua jadi seperti ini If r > f: lakukan juga pada r dan d lalu print dan ketik masukan bilangan terbesar, lalu selanjutnya tambahkan elif dan else yaitu untuk menambah aksi untuk menentukan bahwa r lebih besar dari d dan f lebih besar dari d, setelah menjalani codingan sperti penjelasan dan gambar di atas lalu runing
-![Gambar1](
+![Gambar1](fotoss/ss5.1)
 
 
 setelah running masukan bilangan dari yang terbesar hingga terkecil, hasil akhirnya menunnjukan bilangan terbesar dari tiga bilangan yang di masukan
 
 # Latihan 6
-![Gambar1](
+![Gambar1](fotoss/ss6.png)
 
 
 pertama-tama kita print dan masukan nama kita lalu masukan r, =, dan 1, lalu enter dan masukan a, =, dan 0. jadi keliahatnnya seprti ini:
@@ -123,15 +131,15 @@ while r !=0:
     print("Nilai terbesarnya adalah:", f)
 fungsinya adalah memasukan nilai terbesar.
 ```
-![Gambar1](
+![Gambar1](fotoss/ss6.1.png)
 
 
 setelah running dari hasil codingan di atas lalu masukan bilangan terbesar lalu enter dan masukan nilai yang lebih kecil kemudian enter lagi dan akan menentukan nilai terbesarnya.
 
 # latihan 7
-![Gambar1](
+![Gambar1](fotoss/ss7.png)
 
 
 masukkan codingan sperti diatas adalah untuk menghitung laba dari bulan kesatu hingga ke 8
 
-![Gambar1](
+![Gambar1](fotoss/ss7.1.png)
