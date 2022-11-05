@@ -1,9 +1,12 @@
 # Latihan 1
 Pertama kita buat input terlebih dahulu contohnya seperti dibawah ini:
 
-Lalu kita enter, masukan if untuk menjalani program yang sebelumnya dan tambahkan 
+   x = int(input("masukan bilangan pertama : ")
+   y = int(input("masukan bilangan kedua : ")
 
-  > y : lalu print('Bilangan terbesar = ', x)
+Lalu kita enter, masukan if untuk menjalani program yang sebelumnya, dan tambahkan 
+
+  y : lalu print('Bilangan terbesar = ', x
 
 lalu tambahkan else untuk menambah aksi untuk menentukan bahwa
 
