@@ -54,6 +54,7 @@ else:
             print('Urutan bilangan : ', c)
  ```
 dan saat running kita sebut bilangan yang ingin kita urutkan lalu hasil running nya seperti gambar berikut:
+
 ![Gambar1](
 # Latihan 3 
 
@@ -70,7 +71,8 @@ for i in range(0, 10):
 print()
 ```
 maka runingannya akan seperti gambar berikut:
-gambar gambar
+![Gambar1](
+
 
 # Latihan 4
 pertama-tama kita buat codingannya dulu seperti berikut:
@@ -90,7 +92,8 @@ setelah runing akan diminta masukan nilai N, disini saya memasukan nilai n-nya 9
 ![Gambar1](
 
 # Latihan 5
-gambar
+![Gambar1](
+
 
 jadi masukan r, f, d sebagai inputan untuk memasukan bilangan lalu tambahkan if menandakan bahwa r lebih besar dari f lalu tambahkan titik dua jadi seperti ini If r > f: lakukan juga pada r dan d lalu print dan ketik masukan bilangan terbesar, lalu selanjutnya tambahkan elif dan else yaitu untuk menambah aksi untuk menentukan bahwa r lebih besar dari d dan f lebih besar dari d, setelah menjalani codingan sperti penjelasan dan gambar di atas lalu runing
 ![Gambar1](
@@ -99,7 +102,8 @@ jadi masukan r, f, d sebagai inputan untuk memasukan bilangan lalu tambahkan if 
 setelah running masukan bilangan dari yang terbesar hingga terkecil, hasil akhirnya menunnjukan bilangan terbesar dari tiga bilangan yang di masukan
 
 # Latihan 6
-gambar
+![Gambar1](
+
 
 pertama-tama kita print dan masukan nama kita lalu masukan r, =, dan 1, lalu enter dan masukan a, =, dan 0. jadi keliahatnnya seprti ini:
 ```
