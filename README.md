@@ -1,10 +1,12 @@
 # Latihan 1
 pertama-tama kita buat input terlebih dahulu contohnya seperti dibawah ini:
-
+```
 x = int(input('Masukan bilangan pertama : '))
-
+```
+```
 y = int(input('Masukan bilangan kedua : '))
-lalu kita enter, masukan if untuk menjalani program yang sebelumnya dan tambahkan x > y : lalu print('Bilangan terbesar = ', x)
+```
+Lalu kita enter, masukan if untuk menjalani program yang sebelumnya dan tambahkan x > y : lalu print('Bilangan terbesar = ', x)
 
 lalu tambahkan else untuk menambah aksi untuk menentukan bahwa x lebih besar dari y
 
@@ -23,7 +25,7 @@ b = int(input('Bilangan ke-2 = '))
 
 c = int(input('Bilangan ke-3 = '))
 lalu tambahkan
-
+```
 if a < b:
 
     if b < c:
@@ -49,11 +51,12 @@ else:
          else:
          
             print('Urutan bilangan : ', c)
+            ```
 dan saat running kita sebut bilangan yang ingin kita urutkan lalu hasil running nya seperti gambar berikut:
 
 gambar gambar
 
-latihan 3
+# Latihan 3
 pertama-tama kita buat codingannya dulu seperti berikut:
 
 for i in range(0, 10):
@@ -64,12 +67,12 @@ for i in range(0, 10):
         
         print(f"{product:>3}", end='')
     print()
-print("Rian Fauza")
+print()
 
 maka runingannya akan seperti gambar berikut:
 gambar gambar
 
-latihan 4
+# Latihan 4
 pertama-tama kita buat codingannya dulu seperti berikut:
 
 import random
@@ -87,7 +90,7 @@ setelah runing akan diminta masukan nilai N, disini saya memasukan nilai n-nya 9
 
 gambar gambar
 
-latihan 5
+# Latihan 5
 gambar
 
 jadi masukan r, f, d sebagai inputan untuk memasukan bilangan lalu tambahkan if menandakan bahwa r lebih besar dari f lalu tambahkan titik dua jadi seperti ini If r > f: lakukan juga pada r dan d lalu print dan ketik masukan bilangan terbesar, lalu selanjutnya tambahkan elif dan else yaitu untuk menambah aksi untuk menentukan bahwa r lebih besar dari d dan f lebih besar dari d, setelah menjalani codingan sperti penjelasan dan gambar di atas lalu runing
@@ -96,7 +99,7 @@ gambar
 
 setelah running masukan bilangan dari yang terbesar hingga terkecil, hasil akhirnya menunnjukan bilangan terbesar dari tiga bilangan yang di masukan
 
-latihan 6
+# Latihan 6
 gambar
 
 pertama-tama kita print dan masukan nama kita lalu masukan r, =, dan 1, lalu enter dan masukan a, =, dan 0. jadi keliahatnnya seprti ini:
@@ -120,7 +123,7 @@ gambar
 
 setelah running dari hasil codingan di atas lalu masukan bilangan terbesar lalu enter dan masukan nilai yang lebih kecil kemudian enter lagi dan akan menentukan nilai terbesarnya.
 
-latihan 7
+# latihan 7
 gambar
 
 masukkan codingan sperti diatas adalah untuk menghitung laba dari bulan kesatu hingga ke 8
