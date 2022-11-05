@@ -1,17 +1,17 @@
 # Latihan 1
 - pertama-tama kita buat input terlebih dahulu contohnya seperti dibawah ini:
 ```
-x = int(input('Masukan bilangan pertama : '))
+a = int(input('Masukan bilangan pertama : '))
 ```
 ```
-y = int(input('Masukan bilangan kedua : '))
+b = int(input('Masukan bilangan kedua : '))
 ```
-- Lalu kita enter, masukan if untuk menjalani program yang sebelumnya dan tambahkan x > y : lalu print('Bilangan terbesar = ', x)
+- Lalu kita enter, masukan if untuk menjalani program yang sebelumnya dan tambahkan a > b : lalu print('Bilangan terbesar = ', a)
 
-- lalu tambahkan else untuk menambah aksi untuk menentukan bahwa x lebih besar dari y
+- lalu tambahkan else untuk menambah aksi untuk menentukan bahwa a lebih besar dari b
 ```
 else :
-print('Bilangan terbesar = ', y)
+print('Bilangan terbesar = ', b)
 ```
 - dan saat running kita diminta untuk memasukan bilangan pertama lalu bilangan kedua,
 - lalu hasil runing nya seperti gambar berikut:
@@ -20,28 +20,43 @@ print('Bilangan terbesar = ', y)
 ![Gambar1](fotoss/ss1.1.png)
 
 # latihan 2
-- pertama kita buat input terlebih dahulu contohnya seperti dibawah ini:
+
+- pertama kita  terlebih mendefiniskan terlebih dahulu contohnya seperti dibawah ini:
 ```
-a = int(input('Bilangan ke-1 = '))
-b = int(input('Bilangan ke-2 = '))
-c = int(input('Bilangan ke-3 = '))
+def angka_terbesar (a, b, c):
+    if a>b and a>c :
+        return a
+    elif b>a and b>c:
+        return b
+    return c
+def angka_terkecil (a, b, c):
+    if a<b and a<c :
+        return a
+    elif b<a and b<c :
+        return b
+    return c
+def angka_tengah (a, b, c):
+    if (b > a > c ) or (c > a > b):
+        return a
+    elif (a > b > c) or (c > b > a):
+        return b
+    return c
 ```
-- lalu tambahkan
+- setelah didefinisikan, lalu kita menentukan 3 variabel : 
 ```
-if a < b:
-    if b < c:
-        print('Urutan bilangan : ', a,b,c)
-    else:
-        print('Urutan bilangan : ', c,a,b)
-else:
-    if a < c:
-        print('Urutan bilangan : ',b,a,c)
-    else:
-        if b < c:
-            print('Urutan bilangan : ', b,c,a)
-         else:
-            print('Urutan bilangan : ', c)
- ```
+a, b, c = (
+    int(input('masukan nilai a :')),
+    int(input('masukan nilai b :')),
+    int(input('masukan nilai c :'))
+)
+- saya menggunakan sistem deklarasi yang dimana kita mendeklarasikan ketiganya langsung dalam satu ekspresi
+- lalu kita menggunakan sistem array
+```
+i1 = angka_terkecil(a, b, c)
+i2 = angka_tengah(a, b, c)
+i3 = angka_terbesar(a, b, c)
+print(f'{i1}, {i2}, {i3}')
+```
 - dan saat running kita sebut bilangan yang ingin kita urutkan lalu hasil running nya seperti gambar berikut:
 
 ![Gambar1](fotoss/ss2.png)
@@ -65,49 +80,46 @@ print()
 
 
 # Latihan 4
+
 - pertama-tama kita buat codingannya dulu seperti berikut:
 ```
+n = int(input("masukan nilai n : "))
 import random
-n = int(input("masukan nilai N : "))
 for i in range(n):
-    a = random.uniform(0.0, 0.5)
+    a = random.uniform(0.0, 0.9)
     print("data ke :", i+1, "=> ", a)
 ```
-- setelah runing akan diminta masukan nilai N, disini saya memasukan nilai n-nya 9 dan hasil runningannya akan seperti gambar berikut:
+- setelah runing akan diminta masukan nilai n, disini saya memasukan nilai n-nya 9 dan hasil runningannya akan seperti gambar berikut:
 
 ![Gambar1](fotoss/ss4.png)
 ![Gambar1](fotoss/ss4.1.png)
 
 # Latihan 5
+
 ![Gambar1](fotoss/ss5.png)
 
-
-- jadi masukan r, f, d sebagai inputan untuk memasukan bilangan lalu tambahkan if menandakan bahwa r lebih besar dari f lalu tambahkan titik dua jadi seperti ini If r > f: lakukan juga pada r dan d lalu print dan ketik masukan bilangan terbesar, lalu selanjutnya tambahkan elif dan else yaitu untuk menambah aksi untuk menentukan bahwa r lebih besar dari d dan f lebih besar dari d, setelah menjalani codingan sperti penjelasan dan gambar di atas lalu runing
+- jadi masukan i, j, k sebagai inputan untuk memasukan bilangan lalu tambahkan if menandakan bahwa i lebih besar dari j lalu tambahkan titik dua jadi seperti ini If i > j: lakukan juga pada r dan d lalu print dan ketik masukan bilangan terbesar, lalu selanjutnya tambahkan elif dan else yaitu untuk menambah aksi untuk menentukan bahwa i lebih besar dari k dan j lebih besar dari k, setelah menjalani codingan sperti penjelasan dan gambar di atas lalu runing
 ![Gambar1](fotoss/ss5.1)
-
-
 - setelah running masukan bilangan dari yang terbesar hingga terkecil, hasil akhirnya menunnjukan bilangan terbesar dari tiga bilangan yang di masukan
 
 # Latihan 6
 ![Gambar1](fotoss/ss6.png)
-- pertama-tama kita print dan masukan nama kita lalu masukan r, =, dan 1, lalu enter dan masukan a, =, dan 0. jadi keliahatnnya seprti ini:
+- kita akan membuat sebuah program yang dimana kita bisa meninputkan bilangan intreger berapapun dan di akhiri oleh = 0
 ```
-r=1
-f=0
-```
-- fungsi nya adalah untuk menentukan nilai terbesar, lalu enter dan tambahkan while r, !, =, 0, dan :. setelah itu enter, nah pas saat enter pastikan tidak sejajar dengan while, setelah itu tambahkan if r, >, f, dan : enter lalu tambahkan f = r, kemudian enter tambahkan r dan = lalu input ketik masukan bilangan gunakan (, :, dan " sebagai syntax nya, lalu lanjut enter dan tambahkan if, r, ==, 0, dan : enter dan masukan break tidak sejajar dengan if, enter masukan prinan sperti sbmnya bedanya tambahkan f. jadi keliatannya seperti ini:
-```
-while r !=0:
-    if r > f:
-        f = r
-    r = int(input("masukan Bilangan: "))
-    if r == 0:
+max = 0
+while True:
+    x=int(input("masukan bilangan:"))
+    if max<x:
+        max = x
+    if x==0:
         break
-    print("Nilai terbesarnya adalah:", f)
-- fungsinya adalah memasukan nilai terbesar.
+print("bilangan terbesarnya adalah:", max)
 ```
+- jadi max adalah variabel yang telah diberi nilai = 0
+- dan x adalah variabel untuk menampilkan sebuah ekspresi untuk anda memasukan bilangan
+- kita menggunakan break agar program memiliki titik akhir
 ![Gambar1](fotoss/ss6.1.png)
-- setelah running dari hasil codingan di atas lalu masukan bilangan terbesar lalu enter dan masukan nilai yang lebih kecil kemudian enter lagi dan akan menentukan nilai terbesarnya.
+- disini kita bisa lihat bahwa kita bisa menginput berapapun bilangan yang kita inginkan dan jika ingin mengakhiri tinggal menginputkan titik akhir, yaitu 0
 
 # latihan 7
 ![Gambar1](fotoss/ss7.png)
