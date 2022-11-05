@@ -1,7 +1,13 @@
-# Latihan  1
-##### pertama-tama kita buat input terlebih dahulu contohnya seperti dibawah ini:
+# Latihan 1
+Pertama kita buat input terlebih dahulu contohnya seperti dibawah ini:
 
-##### lalu kita enter, masukan if untuk menjalani program yang sebelumnya dan tambahkan x > y : lalu print('Bilangan terbesar = ', x) lalu tambahkan else untuk menambah aksi untuk menentukan bahwa x lebih besar dari y
+Lalu kita enter, masukan if untuk menjalani program yang sebelumnya dan tambahkan 
+
+  > y : lalu print('Bilangan terbesar = ', x)
+
+lalu tambahkan else untuk menambah aksi untuk menentukan bahwa
+
+  x lebih besar dari y
 
 else :
 
@@ -9,10 +15,8 @@ else :
 dan saat running kita diminta untuk memasukan bilangan pertama lalu bilangan kedua,
 lalu hasil runing nya seperti gambar berikut:
 
-gambar gambar
-
-latihan 2
-pertama-tama kita buat input terlebih dahulu contohnya seperti dibawah ini:
+# latihan 2
+pertama kita buat input terlebih dahulu contohnya seperti dibawah ini:
 
 a = int(input('Bilangan ke-1 = '))
 
