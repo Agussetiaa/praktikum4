@@ -100,7 +100,7 @@ for i in range(n):
 
 ![Gambar1](fotoss/ss5.png)
 
-- jadi masukan i, j, k sebagai inputan, untuk memasukan bilangan lalu tambahkan **if** menandakan bahwa **i lebih besar dari j** lalu tambahkan titik dua jadi seperti ini **If i > j :** lakukan juga pada r dan d lalu print dan ketik masukan bilangan terbesar, kemudian selanjutnya tambahkan **elif dan else** yaitu untuk menambah aksi untuk menentukan bahwa **i lebih besar dari k** dan **j lebih besar dari k**, setelah menjalani codingan seperti penjelasan dan gambar di atas lalu runing
+- jadi masukan i, j, k sebagai inputan, untuk memasukan bilangan lalu tambahkan **if** menandakan bahwa **i lebih besar dari j** lalu tambahkan titik dua jadi seperti ini **If i > j :** lakukan juga pada **r** dan **d** lalu print dan ketik masukan bilangan terbesar, kemudian selanjutnya tambahkan **elif dan else** yaitu untuk menambah aksi untuk menentukan bahwa **i lebih besar dari k** dan **j lebih besar dari k**, setelah menjalani codingan seperti penjelasan dan gambar di atas kemudian di running.
 ![Gambar1](fotoss/ss5.1.png)
 - setelah running masukan bilangan dari yang terbesar hingga terkecil, hasil akhirnya menununjukan bilangan terbesar dari tiga bilangan yang di masukan
 
