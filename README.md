@@ -17,8 +17,8 @@ print("Bilangan terbesar = ", b)
 - kemudian masukan bilangan pertama dan bilangan kedua,
 - dan tekan enter, untuk melihat hasilnya seperti contoh gambar berikut:
 
-![Gambar1](fotoss/ss1.png)
-![Gambar1](fotoss/ss1.1.png)
+![Gambar1](fotoss/123.png)
+![Gambar1](fotoss/1234.png)
 
 # latihan 2
 
