@@ -1,4 +1,5 @@
 # Latihan 1
+
 - pertama kita buat input terlebih dahulu contohnya seperti dibawah ini:
 ```
 a = int(input('Masukan bilangan pertama : '))
@@ -6,15 +7,15 @@ a = int(input('Masukan bilangan pertama : '))
 ```
 b = int(input('Masukan bilangan kedua : '))
 ```
-- kemudian masukan **if** untuk menjalani program yang sebelumnya dan tambahkan **a > b : lalu print('Bilangan terbesar = ', a**
+- kemudian masukan **if** untuk menjalani program yang sebelumnya dan tambahkan **a > b :** kemudian **print('Bilangan terbesar = ', a)**
 
 - tambahkan **else** untuk menambahkan aksi untuk menentukan bahwa **a lebih besar dari b**
 ```
 else :
 print("Bilangan terbesar = ", b)
 ```
-- untuk melihat hasil, masukan bilangan pertama dan bilangan kedua,
-- dan tekan enter, contoh seperti gambar berikut:
+- kemudian masukan bilangan pertama dan bilangan kedua,
+- dan tekan enter, untuk melihat hasilnya seperti contoh gambar berikut:
 
 ![Gambar1](fotoss/ss1.png)
 ![Gambar1](fotoss/ss1.1.png)
@@ -58,14 +59,14 @@ i2 = angka_tengah(a, b, c)
 i3 = angka_terbesar(a, b, c)
 print(f'{i1}, {i2}, {i3}')
 ```
-- dan saat running kita sebut bilangan yang ingin kita urutkan lalu hasil running nya seperti gambar berikut:
+- dan saat running kita input bilangan yang ingin kita urutkan lalu hasil running nya seperti gambar berikut:
 
 ![Gambar1](fotoss/ss2.png)
 ![Gambar1](fotoss/ss2.1.png)
 
 # Latihan 3 
 
-- buatcodingannya dulu seperti berikut:
+- buat codingannya dulu seperti berikut:
 ```
 for i in range(0, 10):
     for j in range(0, 10):
@@ -99,13 +100,13 @@ for i in range(n):
 
 ![Gambar1](fotoss/ss5.png)
 
-- jadi masukan i, j, k sebagai inputan, untuk memasukan bilangan lalu tambahkan if menandakan bahwa i lebih besar dari j lalu tambahkan titik dua jadi seperti ini If i > j: lakukan juga pada r dan d lalu print dan ketik masukan bilangan terbesar, lalu selanjutnya tambahkan elif dan else yaitu untuk menambah aksi untuk menentukan bahwa i lebih besar dari k dan j lebih besar dari k, setelah menjalani codingan sperti penjelasan dan gambar di atas lalu runing
+- jadi masukan i, j, k sebagai inputan, untuk memasukan bilangan lalu tambahkan **if** menandakan bahwa **i lebih besar dari j** lalu tambahkan titik dua jadi seperti ini **If i > j :** lakukan juga pada r dan d lalu print dan ketik masukan bilangan terbesar, kemudian selanjutnya tambahkan **elif dan else** yaitu untuk menambah aksi untuk menentukan bahwa **i lebih besar dari k** dan **j lebih besar dari k**, setelah menjalani codingan seperti penjelasan dan gambar di atas lalu runing
 ![Gambar1](fotoss/ss5.1.png)
 - setelah running masukan bilangan dari yang terbesar hingga terkecil, hasil akhirnya menununjukan bilangan terbesar dari tiga bilangan yang di masukan
 
 # Latihan 6
 ![Gambar1](fotoss/ss6.png)
-- kita akan membuat sebuah program yang dimana kita bisa menginputkan bilangan interger berapapun dan di akhiri oleh = 0
+- kita akan membuat sebuah program yang dimana kita bisa menginputkan bilangan integer berapapun dan di akhiri oleh = **0**
 ```
 max = 0
 while True:
@@ -116,13 +117,13 @@ while True:
         break
 print("bilangan terbesarnya adalah:", max)
 ```
-- jadi max adalah variabel yang telah diberi nilai = 0
-- dan x adalah variabel untuk menampilkan sebuah ekspresi untuk anda memasukan bilangan
-- kita menggunakan break agar program memiliki titik akhir
+- jadi **max** adalah variabel yang telah diberi nilai = **0**
+- dan **x** adalah variabel untuk menampilkan sebuah ekspresi untuk anda memasukan bilangan
+- kita menggunakan **break** agar program memiliki titik akhir.
 ![Gambar1](fotoss/ss6.1.png)
-- disini kita bisa lihat bahwa kita bisa menginput berapapun bilangan yang kita inginkan dan jika ingin mengakhiri tinggal menginputkan titik akhir, yaitu 0
+- disini kita bisa melihat hasilnya bahwa kita menginput berapapun bilangan yang kita inginkan dan jika ingin mengakhiri tinggal menginputkan titik akhir, yaitu **0**
 
-# latihan 7
+# Latihan 7
 ![Gambar1](fotoss/ss7.png)
-- masukkan codingan sperti diatas adalah untuk menghitung laba dari bulan kesatu hingga ke 8
+- masukkan codingan seperti diatas adalah untuk menghitung laba dari bulan ke-1 hingga ke-8
 ![Gambar1](fotoss/ss7.1.png)
