@@ -1,27 +1,27 @@
 # Latihan 1
-- pertama-tama kita buat input terlebih dahulu contohnya seperti dibawah ini:
+- pertama kita buat input terlebih dahulu contohnya seperti dibawah ini:
 ```
 a = int(input('Masukan bilangan pertama : '))
 ```
 ```
 b = int(input('Masukan bilangan kedua : '))
 ```
-- Lalu kita enter, masukan if untuk menjalani program yang sebelumnya dan tambahkan a > b : lalu print('Bilangan terbesar = ', a)
+- kemudian masukan **if** untuk menjalani program yang sebelumnya dan tambahkan **a > b : lalu print('Bilangan terbesar = ', a**
 
-- lalu tambahkan else untuk menambah aksi untuk menentukan bahwa a lebih besar dari b
+- tambahkan **else** untuk menambahkan aksi untuk menentukan bahwa **a lebih besar dari b**
 ```
 else :
-print('Bilangan terbesar = ', b)
+print("Bilangan terbesar = ", b)
 ```
-- dan saat running kita diminta untuk memasukan bilangan pertama lalu bilangan kedua,
-- lalu hasil runing nya seperti gambar berikut:
+- untuk melihat hasil, masukan bilangan pertama dan bilangan kedua,
+- dan tekan enter, contoh seperti gambar berikut:
 
 ![Gambar1](fotoss/ss1.png)
 ![Gambar1](fotoss/ss1.1.png)
 
 # latihan 2
 
-- pertama kita  terlebih mendefiniskan terlebih dahulu contohnya seperti dibawah ini:
+- pertama mendefiniskan terlebih dahulu contohnya seperti dibawah ini:
 ```
 def angka_terbesar (a, b, c):
     if a>b and a>c :
@@ -65,7 +65,7 @@ print(f'{i1}, {i2}, {i3}')
 
 # Latihan 3 
 
-- pertama-tama kita buat codingannya dulu seperti berikut:
+- buatcodingannya dulu seperti berikut:
 ```
 for i in range(0, 10):
     for j in range(0, 10):
@@ -82,7 +82,7 @@ print()
 
 # Latihan 4
 
-- pertama-tama kita buat codingannya dulu seperti berikut:
+- pertama kita buat codingannya dulu seperti berikut:
 ```
 n = int(input("masukan nilai n : "))
 import random
@@ -99,13 +99,13 @@ for i in range(n):
 
 ![Gambar1](fotoss/ss5.png)
 
-- jadi masukan i, j, k sebagai inputan untuk memasukan bilangan lalu tambahkan if menandakan bahwa i lebih besar dari j lalu tambahkan titik dua jadi seperti ini If i > j: lakukan juga pada r dan d lalu print dan ketik masukan bilangan terbesar, lalu selanjutnya tambahkan elif dan else yaitu untuk menambah aksi untuk menentukan bahwa i lebih besar dari k dan j lebih besar dari k, setelah menjalani codingan sperti penjelasan dan gambar di atas lalu runing
+- jadi masukan i, j, k sebagai inputan, untuk memasukan bilangan lalu tambahkan if menandakan bahwa i lebih besar dari j lalu tambahkan titik dua jadi seperti ini If i > j: lakukan juga pada r dan d lalu print dan ketik masukan bilangan terbesar, lalu selanjutnya tambahkan elif dan else yaitu untuk menambah aksi untuk menentukan bahwa i lebih besar dari k dan j lebih besar dari k, setelah menjalani codingan sperti penjelasan dan gambar di atas lalu runing
 ![Gambar1](fotoss/ss5.1.png)
-- setelah running masukan bilangan dari yang terbesar hingga terkecil, hasil akhirnya menunnjukan bilangan terbesar dari tiga bilangan yang di masukan
+- setelah running masukan bilangan dari yang terbesar hingga terkecil, hasil akhirnya menununjukan bilangan terbesar dari tiga bilangan yang di masukan
 
 # Latihan 6
 ![Gambar1](fotoss/ss6.png)
-- kita akan membuat sebuah program yang dimana kita bisa meninputkan bilangan intreger berapapun dan di akhiri oleh = 0
+- kita akan membuat sebuah program yang dimana kita bisa menginputkan bilangan interger berapapun dan di akhiri oleh = 0
 ```
 max = 0
 while True:
